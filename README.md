@@ -23,7 +23,7 @@ Link für [Extension Pack](https://download.virtualbox.org/virtualbox/6.1.34/Ora
 ### Erstelle eine Virtuelle Maschine
 Öffne die Virtual Box Anwendung und klicke auf das 'Neu' Icon, um eine neue virtuelle Maschine zu erstellen. Es öffnet sich ein Fenster, in dem du einige Grundeinstellungen eintragen kannst. Der Name und der Installationsordner deiner VM kann frei gewählt werden. Für Typ und Version kannst du dich an dem folgenden Beispiel orientieren. 
 
-Die Speichergröße sollte mindestens 4096MB betragen. Zum Schluss wählst du vorhandene Festplatte verwenden und wählst die VDMK oder ISO Datei aus, die du im ersten Schritt heruntergeladen hast.
+Die Speichergröße sollte mindestens 4096MB betragen. Zum Schluss wählst du "Vorhandene Festplatte verwenden" aus und trägst die VDMK oder ISO Datei, die du im ersten Schritt heruntergeladen oder selbst konvertiert hast, ein.
 
 ![Einstellungen Beispiel](/images/pic_1.png)
 
