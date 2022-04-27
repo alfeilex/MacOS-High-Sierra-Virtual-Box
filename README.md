@@ -1,7 +1,7 @@
 # MacOS-High-Sierra-Virtual-Box
 Eine kurze Anleitung zum Installieren einer virtuellen Maschine mit MacOS High Sierra
 
-## 1. Voraussetzung
+## Voraussetzung
 
 ### VDMK oder ISO Datei
 Zunächst benötigst du eine Image Datei von macOS High Sierra. Die Dateien auf der Apple Webseite sind im DMG Format, sodass sie von dir in ein ISO oder VMDK Format umgewandelt werden müssen. Hier kannst du bereits Zeit sparen und eine vorgefertige VMDK Datei herunterladen
@@ -18,7 +18,7 @@ Links für VirtualBox abhängig vom Betriebssystem
  
 Link für [Extension Pack](https://download.virtualbox.org/virtualbox/6.1.34/Oracle_VM_VirtualBox_Extension_Pack-6.1.34.vbox-extpack)
 
-## 2.Installation
+## Installation
 
 ### Erstelle eine Virtuelle Maschine
 Öffne die Virtual Box Anwendung und klicke auf das 'Neu' Icon, um eine neue virtuelle Maschine zu erstellen. Es öffnet sich ein Fenster, in dem du einige Grundeinstellungen eintragen kannst. Der Name und der Installationsordner deiner VM kann frei gewählt werden. Für Typ und Version kannst du dich an dem folgenden Beispiel orientieren. 
@@ -27,7 +27,7 @@ Die Speichergröße sollte mindestens 4096MB betragen. Zum Schluss wählst du "V
 
 ![Einstellungen Beispiel](/images/pic_1.png)
 
-### Führe einige Kommandos aus
+### Führe einige zusätzliche Kommandos aus
 Nachdem du die virtuelle Maschine erstellt hast, schließt du die Virtual Box Anwendung und öffnest als **Administrator** die CMD (Windows-Eingabeaufforderung) auf.
 
 Nun gibst du folgende Kommandos ein. **WICHTIG** ist, dass du den "VM Name" in den Kommandos in den Namen umänderst, den du im vorherigen Schritt für die VM vergeben hast. Im bisherigen Bespiel wäre es "MacOS High Sierra". 
@@ -66,7 +66,7 @@ Anschließend kannst du die virtuelle Maschine starten.
 
 Nachdem du die virtuelle Maschine gestartet hast, öffnet sich innerhalb der VM ein Terminal. Dieser Vorgang kann einige Minuten dauern. Dies ist abhängig von deinem System. Schließlich öffnet sich der Installationsprozess für macOS High Sierra. 
 
-## 3. Nützliche Features
+## Nützliche Features
 
 Falls das Fenster der VM für dich zu klein und ist und du die Auflösung vergrößern willst, kannst du folgende Kommandos ausführen.
 
