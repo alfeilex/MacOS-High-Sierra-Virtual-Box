@@ -30,7 +30,7 @@ Die Speichergröße sollte mindestens 4096MB betragen. Zum Schluss wählst du vo
 ### Führe einige Kommandos aus
 Nachdem du die virtuelle Maschine erstellt hast, schließt du die Virtual Box Anwendung und öffnest als **Administrator** die CMD (Windows-Eingabeaufforderung) auf.
 
-Nun gibst du folgende Kommandos ein. **WICHTIG** ist, dass du den *VM Name* in den Kommandos in den Namen umänderst, den du im vorherigen Schritt für die VM vergeben hast. Im bisherigen Bespiel wäre es *MacOS High Sierra*. 
+Nun gibst du folgende Kommandos ein. **WICHTIG** ist, dass du den "VM Name" in den Kommandos in den Namen umänderst, den du im vorherigen Schritt für die VM vergeben hast. Im bisherigen Bespiel wäre es "MacOS High Sierra". 
 
 **Tipp** *Du kannst einen beliebigen Texteditor nutzen und mit einem "Replace" Befehl alle Namen gleichzeitig umbenennen lassen.*
 
@@ -70,11 +70,11 @@ Nachdem du die virtuelle Maschine gestartet hast, öffnet sich innerhalb der VM 
 
 Falls das Fenster der VM für dich zu klein und ist und du die Auflösung vergrößern willst, kannst du folgende Kommandos ausführen.
 
-Ändere einfach für "bxh" deine gewünschte Auflösung e.g. "1980x1080" oder "1280x720
+Ändere einfach für "bxh" deine gewünschte Auflösung e.g. "1980x1080" oder "1280x720. Für "VM Name" solltest du wieder deinen VM Namen verwenden.
 ```
 cd "C:\Program Files\Oracle\VirtualBox\"
 
-VBoxManage setextradata "HighSierra" VBoxInternal2/EfiGraphicsResolution "bxh"
+VBoxManage setextradata "VM Name" VBoxInternal2/EfiGraphicsResolution "bxh"
 
 ```
 Starte die VM und klicke auf *Ansicht* in der oberen Leiste und anschließend auf *Vollbildmodus*. Nun ist das VM auf deine eingestellte Bildschirmauflösung angepasst. 
