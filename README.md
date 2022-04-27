@@ -4,7 +4,7 @@ Eine kurze Anleitung zum Installieren einer virtuellen Maschine mit MacOS High S
 ## 1. Voraussetzung
 
 ### VDMK oder ISO Datei
-Zunächst benötigst du eine Image Datei von macOS High Sierra. Die Datein auf der Apple Webseite sind im DMG Format, sodass sie von dir in ein ISO oder VMDK Format umgewandelt werden müssen. Hier kannst du bereits Zeit sparen und eine vorgefertige VMDK Datei herunterladen
+Zunächst benötigst du eine Image Datei von macOS High Sierra. Die Dateien auf der Apple Webseite sind im DMG Format, sodass sie von dir in ein ISO oder VMDK Format umgewandelt werden müssen. Hier kannst du bereits Zeit sparen und eine vorgefertige VMDK Datei herunterladen
 [VDMK MACOS HIGH SIERRA](https://www.mediafire.com/file/xe6vr0yvb5hqr5c/macOS_High_Sierra_10.13_%252817A365%2529_3_by_techrechard.com.vmdk/file)
 
 ### VirtualBox und das Extension Pack
