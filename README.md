@@ -66,3 +66,17 @@ Anschließend kannst du die virtuelle Maschine starten.
 
 Nachdem du die virtuelle Maschine gestartet hast, öffnet sich innerhalb der VM ein Terminal. Dieser Vorgang kann einige Minuten dauern. Dies ist abhängig von deinem System. Schließlich öffnet sich der Installationsprozess für macOS High Sierra. 
 
+## 3. Nützliche Features
+
+Falls das Fenster der VM für die zu klein und ist und du die Auflösung vergrößern willst, kannst du folgende Kommandos ausführen.
+
+Ändere einfach für "bxh" deine gewünschte Auflösung e.g. "1980x1080" oder "1280x720
+```
+cd "C:\Program Files\Oracle\VirtualBox\"
+
+VBoxManage setextradata "HighSierra" VBoxInternal2/EfiGraphicsResolution "bxh"
+
+```
+Starte die VM und klicke auf *Ansicht* in der oberen Leiste und anschließend auf *Vollbildmodus*. Nun ist das VM auf deine eingestellte Bildschirmauflösung angepasst. 
+
+Die Anleitung ist maßgeblich an folgendem Tutorial orientiert und kann für detaillierte Informationen genutzt werden. Ich habe sie lediglich etwas gekürzt und in deutsch übersetzt. [Tutorial von Geekrar](https://www.geekrar.com/install-macos-high-sierra-on-virtualbox-2021/#Install_macOS_High_Sierra_on_VirtualBox)
