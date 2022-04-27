@@ -68,7 +68,7 @@ Nachdem du die virtuelle Maschine gestartet hast, öffnet sich innerhalb der VM 
 
 ## 3. Nützliche Features
 
-Falls das Fenster der VM für die zu klein und ist und du die Auflösung vergrößern willst, kannst du folgende Kommandos ausführen.
+Falls das Fenster der VM für dich zu klein und ist und du die Auflösung vergrößern willst, kannst du folgende Kommandos ausführen.
 
 Ändere einfach für "bxh" deine gewünschte Auflösung e.g. "1980x1080" oder "1280x720
 ```
